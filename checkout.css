@@ -1,0 +1,136 @@
+
+
+body{
+    background-color: #d3d3d3;
+    width: 100%;
+}
+/* header start */
+header{
+  width: 100%;
+}
+.profile{
+  height: 20px;
+  width: 20px;
+  padding-top: 12px;
+  padding-left: 15px; 
+}
+.wish{
+  height: 30px;
+  width: 30px;
+  padding-top: 9px;
+  padding-left: 15px;
+}
+.cart{
+  height: 20px;
+  width: 20px;
+  padding-top: 12px;
+  padding-left: 15px;
+}
+/* body{
+    background-color: #d3d3d3;
+} */
+nav ul li {
+    list-style: none;
+    padding: 9px 12px;
+} 
+img.size {
+    width: 70px;
+} 
+.pad{
+    padding-right: 450px;
+}
+.flex {
+    display: flex;
+}
+.item-center {
+    align-items: center;
+}
+.space-around {
+    padding-left: 1px;
+    width: 250px;
+}
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+} 
+/* header end */
+.payment{
+  display: flex;
+}
+.box{
+  align-items: center;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.input{
+  width: 43%;
+   height: 27px; 
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.checkout-t{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    box-shadow: 3px;
+    padding: 10px 0;
+  }
+  .totalcosttitle{
+    width: 30%;
+    color:  black;
+    /* padding-left: 45%; */
+  }
+  
+  .basketTotal-s{
+     width: 10%;
+     color: black;
+     align-items: center;
+     justify-content: center;
+     /* padding-left: 46%; */
+  }
+  .pay button{
+    background-color: orange;
+    box-shadow: 1px 2px 5px 0;
+  }
+  /* .pay{
+    padding-left: 45%;
+  } */
+.s{
+  padding: 1% 25% 1% 0%;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+/* footer start */
+.f-container{
+    max-width: 1170px;
+    margin: auto; 
+  }
+  .f-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer{
+  background-color: #d3d3d3;
+  /* padding: 30px 0; */
+  }
+  footer ul li{
+    list-style: none;
+  }
+  .footer-col{
+     width: 23%;
+     padding: 0 8px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  /* footer end */

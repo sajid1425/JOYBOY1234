@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>JOYBOY</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class=" flex item-center justify-center">
+            <a href="index.html"><img class="size" src="img/main/logo.jpg" /> </a>
+            <ul class="flex">
+              <a href="index.html" style="text-decoration: none !important;" color:inherit;>
+                 <li>Home</li>
+              </a>
+              <li>Categories</li>
+              <li>Anime</li>
+              <li class="pad">Track Order</li>
+            </ul>
+            <input placeholder="Search" class="flex space-around" type="text" />
+            <div class="flex cart-no">
+              <img class="profile" src="img/main/Profile g.jpg"/>
+              <img class="wish" src="https://cdn3.iconfinder.com/data/icons/marketing-e-commerce/128/icons_-_marketing-41-512.png"/>
+              <a href="cart.html"><img class="cart" src="img/main/Cart g.jpg"/></a> <span>0</span>
+            </div>
+          </div>
+         
+        </nav>
+      </header>
+      <hr>
+     
+      <div class="box ">
+        <center><h2>Enter Payment Details</h2></center>
+        <h3><p>Enter Full Name</p></h3>
+           <div class="select"> <select class="s">
+            <option value="0">Select bank</option>
+            <option value="1">State bank of India</option>
+            <option value="2">ICIC bank</option>
+            <option value="3">HDFC Bank</option>
+            <option value="4">Panjab National Bank</option>
+            <option value="5">Bank of Baroda</option>
+           </select>
+        </div>
+           <h3><p>Name on card</p></h3>
+              <input class="input" type="text" placeholder="Sajid Magbul Sayyad" >
+              <h3><p>ATM/Credit Card Number</p></h3>
+                 <input class="input" type="text" placeholder="1111-2222-3333-444" >
+                    <h3><p>Exp Month</p></h3>
+                       <input class="input" type="text" placeholder="January " >
+                       <h3><p>Exp. year</p></h3>
+                          <input class="input" type="text" placeholder="2022" >
+                          <h3><p>CVV</p></h3>
+                             <input class="input" type="text" placeholder="1234" >
+                                <center><div class="checkout">
+                                </div></center>
+                                <div class="pay">
+                                 <center> <button onclick="order()">  Place Order  </button>
+                                </div></center>
+      </div>
+      <hr>
+  <footer class="footer">
+    <div class="f-container">
+      <div class="f-row">
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li>about us</li>
+              <li>our service</li>
+              <li>privacy policy</li>
+              <li>affiliate program</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li>FAQ</li>
+            <li>shipping</li>
+            <li>returns</li>
+            <li>order status</li>
+            <li>payment option</li>
+          </ul>
+        </div>
+        <div class="footer-col l">
+          <h4>Online Shop</h4>
+          <ul>
+            <li>T-shirts</li>
+            <li>Hoodies</li>
+            <li>Accessories</li>
+          </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow us</h4>
+        <div class="social-link">
+          <a href="#"><i class="fab fa-facebook-f"></i>
+          <a href="#"><i class="fab fa-twitter"></i>
+          <a href="#"><i class="fab fa-instagram"></i>
+          <a href="#"><i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+      </div> 
+    </div>
+  </footer>
+  <script src="main.js"></script>
+  <script>
+    function order() {
+        alert("Your Order is Placed");
+    }
+  </script>
+</body>
+</html>
